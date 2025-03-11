@@ -25,15 +25,14 @@ Before using this tool, make sure you have the following:
 Install the required Python libraries using pip:
 
 ```
-pip install selenium beautifulsoup4 pandas openpyxl webdriver-manager
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
 sudo yum install -y google-chrome-stable_current_x86_64.rpm
+sudo curl https://intoli.com/install-google-chrome.sh | bash
 wget https://chromedriver.storage.googleapis.com/[version]/chromedriver_linux64.zip
 unzip chromedriver_linux64.zip
 sudo mv chromedriver /usr/bin/chromedriver
 sudo chown root:root /usr/bin/chromedriver
 sudo chmod +x /usr/bin/chromedriver
-pip install selenium
 ```
 
 ### ComBase Account
