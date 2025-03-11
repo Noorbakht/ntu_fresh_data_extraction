@@ -146,7 +146,7 @@ This will:
 ### Main Script (ntu_fresh_selenium_bs.py)
 
 ```
-python3 ntu_fresh_selenium_bs.py -o output_file.txt [options]
+python3 ntu_fresh_selenium_bs.py -o output_file.txt --headless
 ```
 
 Options:
