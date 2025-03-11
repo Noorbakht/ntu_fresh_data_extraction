@@ -105,7 +105,7 @@ A simple script for combining Excel files:
 Run the main script with an output file parameter:
 
 ```
-python ntu_fresh_selenium_bs.py -o output_file.txt
+python3 ntu_fresh_selenium_bs.py -o output_file.txt
 ```
 
 This will:
@@ -122,7 +122,7 @@ This will:
 After running the main script, run the test_combine_excel.py script:
 
 ```
-python test_combine_excel.py
+python3 test_combine_excel.py
 ```
 
 This will:
