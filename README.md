@@ -138,7 +138,7 @@ This will:
 ### Main Script (ntu_fresh_selenium_bs.py)
 
 ```
-python ntu_fresh_selenium_bs.py -o output_file.txt [options]
+python3 ntu_fresh_selenium_bs.py -o output_file.txt [options]
 ```
 
 Options:
@@ -155,7 +155,7 @@ Options:
 ### Combine Excel Script (test_combine_excel.py)
 
 ```
-python test_combine_excel.py
+python3 test_combine_excel.py
 ```
 
 This script has no command line options. It will always create a file named "ComBaseCombined.xlsx" in your Downloads folder.
