@@ -113,7 +113,7 @@ A simple script for combining Excel files:
 Run the main script with an output file parameter:
 
 ```
-python3 ntu_fresh_selenium_bs.py -o output_file.txt
+python3 ntu_fresh_selenium_bs.py -o output_file.txt --headless
 ```
 
 This will:
